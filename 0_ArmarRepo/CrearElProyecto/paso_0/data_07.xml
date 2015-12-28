@@ -1,0 +1,1404 @@
+<div ng-show="chapter >= 0">
+    <!-- ngRepeat: s in sections --><div ng-repeat="s in sections" style="float:left" class="ng-scope">
+      <table width="475" class="cpbook-table" border="1" style="margin-bottom:15px;" cellspacing="0">
+        <thead>
+          <tr>
+            <th colspan="4" style="height:20px; border:0; color:white;" class="tablebar ng-binding" ng-bind-html-unsafe="s.section_title">Basic Geometry - Part 1 <tt>(0/47 = 0%)</tt></th>
+          </tr>
+        </thead>
+        <!-- ngRepeat: sc in s.sections --><tbody class="alt_colors ng-scope" ng-repeat="sc in s.sections">
+          <tr>
+            <td colspan="4" style="font-weight:bold; font-size:11px" ng-bind-html-unsafe="sc.title" class="ng-binding">&nbsp;Points and Lines <tt>(0/23)</tt></td>
+          </tr>
+          <!-- ngRepeat: ssc in sc.sections --><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/152.html" target="_blank" style="">152</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=88">
+                Tree's a Crowd
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/152"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=152">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/191.html" target="_blank" style="">191</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=127">
+                Intersection
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/191"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=191">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/3/378.html" target="_blank" style="">378</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=314">
+                Intersecting Lines
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/378"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=378">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/5/587.html" target="_blank" style="">587</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=528">
+                There's treasure everywhere!
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/587"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=587">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/8/833.html" target="_blank" style="">833</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=774">
+                Water Falls
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/833"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=833">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/8/837.html" target="_blank" style="">837</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=778">
+                Light and Transparencies
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/837"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=837">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/9/920.html" target="_blank" style="">920</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=861">
+                Sunny Mountains
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/920"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=920">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/12/1249.html" target="_blank" style="">1249</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=3690">
+                Euclid
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/1249"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=1249">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 6</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/102/10242.html" target="_blank" style="">10242</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1183">
+                Fourth Point !!
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10242"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10242">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/102/10250.html" target="_blank" style="">10250</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1191">
+                The Other Two Trees
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10250"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10250">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/102/10263.html" target="_blank" style="">10263</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1204">
+                Railway
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10263"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10263">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/103/10357.html" target="_blank" style="">10357</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1298">
+                Playball !!!
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10357"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10357">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/104/10466.html" target="_blank" style="">10466</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1407">
+                How Far?
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10466"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10466">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/105/10585.html" target="_blank" style="">10585</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1526">
+                Center of symmetry
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10585"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10585">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/108/10832.html" target="_blank" style="">10832</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1773">
+                Yoyodyne
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10832"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10832">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/108/10865.html" target="_blank" style="">10865</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1806">
+                Brownie Points
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10865"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10865">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/109/10902.html" target="_blank" style="">10902</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1843">
+                Pick-up Sticks
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10902"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10902">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/109/10927.html" target="_blank" style="">10927</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1868">
+                Bright Lights
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10927"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10927">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/110/11068.html" target="_blank" style="">11068</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2009">
+                An Easy Task
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11068"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11068">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/113/11343.html" target="_blank" style="">11343</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2318">
+                Isolated Segments
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11343"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11343">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/115/11505.html" target="_blank" style="">11505</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2500">
+                Logo
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11505"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11505">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/115/11519.html" target="_blank" style="">11519</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2514">
+                Logo 2
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11519"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11519">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/118/11894.html" target="_blank" style="">11894</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2994">
+                Genius MJ
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11894"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11894">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 6</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr>
+        </tbody><tbody class="alt_colors ng-scope" ng-repeat="sc in s.sections">
+          <tr>
+            <td colspan="4" style="font-weight:bold; font-size:11px" ng-bind-html-unsafe="sc.title" class="ng-binding">&nbsp;Triangles (plus Circles) <tt>(0/24)</tt></td>
+          </tr>
+          <!-- ngRepeat: ssc in sc.sections --><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/121.html" target="_blank" style="">121</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=57">
+                Pipe Fitters
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/121"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=121">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/143.html" target="_blank" style="">143</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=79">
+                Orchard Trees
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/143"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=143">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/190.html" target="_blank" style="">190</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=126">
+                Circle Through Three Points
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/190"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=190">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/3/375.html" target="_blank" style="">375</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=311">
+                Inscribed Circles and Isosceles Triangles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/375"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=375">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/4/438.html" target="_blank" style="">438</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=379">
+                The Circumference of the Circle
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/438"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=438">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/101/10195.html" target="_blank" style="">10195</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1136">
+                The Knights Of The Round Table
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10195"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10195">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/102/10210.html" target="_blank" style="">10210</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1151">
+                Romeo and Juliet !
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10210"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10210">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/102/10286.html" target="_blank" style="">10286</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1227">
+                Trouble with a Pentagon
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10286"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10286">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/103/10347.html" target="_blank" style="">10347</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1288">
+                Medians
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10347"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10347">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/103/10387.html" target="_blank" style="">10387</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1328">
+                Billiard
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10387"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10387">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/105/10522.html" target="_blank" style="">10522</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1463">
+                Height to Area
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10522"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10522">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/105/10577.html" target="_blank" style="">10577</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1518">
+                Bounding box
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10577"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10577">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/107/10792.html" target="_blank" style="">10792</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1733">
+                The Laurel-Hardy Story
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10792"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10792">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/109/10991.html" target="_blank" style="">10991</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1932">
+                Region
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10991"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10991">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/111/11152.html" target="_blank" style="">11152</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2093">
+                Colourful Flowers
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11152"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11152">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/111/11164.html" target="_blank" style="">11164</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2105">
+                Kingdom Division
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11164"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11164">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/112/11281.html" target="_blank" style="">11281</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2256">
+                Triangular Pegs in Round Holes
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11281"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11281">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/113/11326.html" target="_blank" style="">11326</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2301">
+                Laser Pointer
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11326"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11326">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/114/11437.html" target="_blank" style="">11437</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2432">
+                Triangle Fun
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11437"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11437">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/114/11479.html" target="_blank" style="">11479</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2474">
+                Is this the easiest problem?
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11479"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11479">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/115/11579.html" target="_blank" style="">11579</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2626">
+                Triangle Trouble
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11579"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11579">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/118/11854.html" target="_blank" style="">11854</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2954">
+                Egypt
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11854"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11854">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/119/11909.html" target="_blank" style="">11909</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=3060">
+                Soya Milk
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11909"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11909">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/119/11936.html" target="_blank" style="">11936</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=3087">
+                The Lazy Lumberjacks
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11936"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11936">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div><div ng-repeat="s in sections" style="float:right" class="ng-scope">
+      <table width="475" class="cpbook-table" border="1" style="margin-bottom:15px;" cellspacing="0">
+        <thead>
+          <tr>
+            <th colspan="4" style="height:20px; border:0; color:white;" class="tablebar ng-binding" ng-bind-html-unsafe="s.section_title">Basic Geometry - Part 2 <tt>(0/27 = 0%)</tt></th>
+          </tr>
+        </thead>
+        <!-- ngRepeat: sc in s.sections --><tbody class="alt_colors ng-scope" ng-repeat="sc in s.sections">
+          <tr>
+            <td colspan="4" style="font-weight:bold; font-size:11px" ng-bind-html-unsafe="sc.title" class="ng-binding">&nbsp;Circles (only) <tt>(0/13)</tt></td>
+          </tr>
+          <!-- ngRepeat: ssc in sc.sections --><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/13/1388.html" target="_blank" style="">1388</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=4134">
+                Graveyard
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/1388"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=1388">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/100/10005.html" target="_blank" style="">10005</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=946">
+                Packing polygons
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10005"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10005">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/101/10136.html" target="_blank" style="">10136</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1077">
+                Chocolate Chip Cookies
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10136"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10136">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/101/10180.html" target="_blank" style="">10180</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1121">
+                Rope Crisis in Ropeland!
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10180"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10180">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/102/10209.html" target="_blank" style="">10209</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1150">
+                Is This Integration ?
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10209"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10209">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/102/10221.html" target="_blank" style="">10221</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1162">
+                Satellites
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10221"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10221">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/102/10283.html" target="_blank" style="">10283</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1224">
+                The Kissing Circles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10283"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10283">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/104/10432.html" target="_blank" style="">10432</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1373">
+                Polygon Inside A Circle
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10432"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10432">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/104/10451.html" target="_blank" style="">10451</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1392">
+                Ancient Village Sports
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10451"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10451">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/105/10573.html" target="_blank" style="">10573</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1514">
+                Geometry Paradox
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10573"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10573">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/105/10589.html" target="_blank" style="">10589</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1530">
+                Area
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10589"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10589">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/106/10678.html" target="_blank" style="">10678</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1619">
+                The Grazing Cow
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10678"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10678">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/125/12578.html" target="_blank" style="">12578</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=4023">
+                10:6:2
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/12578"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=12578">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr>
+        </tbody><tbody class="alt_colors ng-scope" ng-repeat="sc in s.sections">
+          <tr>
+            <td colspan="4" style="font-weight:bold; font-size:11px" ng-bind-html-unsafe="sc.title" class="ng-binding">&nbsp;Quadrilaterals <tt>(0/11)</tt></td>
+          </tr>
+          <!-- ngRepeat: ssc in sc.sections --><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/155.html" target="_blank" style="">155</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=91">
+                All Squares
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/155"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=155">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/4/460.html" target="_blank" style="">460</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=401">
+                Overlapping Rectangles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/460"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=460">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/4/476.html" target="_blank" style="">476</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=417">
+                Points in Figures: Rectangles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/476"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=476">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/4/477.html" target="_blank" style="">477</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=418">
+                Points in Figures: Rectangles and Circles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/477"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=477">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/112/11207.html" target="_blank" style="">11207</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2148">
+                The easiest way
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11207"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11207">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/113/11345.html" target="_blank" style="">11345</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2320">
+                Rectangles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11345"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11345">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/114/11455.html" target="_blank" style="">11455</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2450">
+                Behold my quadrangle
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11455"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11455">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/116/11639.html" target="_blank" style="">11639</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2686">
+                Guard the Land
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11639"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11639">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/118/11800.html" target="_blank" style="">11800</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2900">
+                Determine the Shape
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11800"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11800">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/118/11834.html" target="_blank" style="">11834</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2934">
+                Elevator
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11834"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11834">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/122/12256.html" target="_blank" style="">12256</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=3408">
+                Making Quadrilaterals
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/12256"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=12256">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 6</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr>
+        </tbody><tbody class="alt_colors ng-scope" ng-repeat="sc in s.sections">
+          <tr>
+            <td colspan="4" style="font-weight:bold; font-size:11px" ng-bind-html-unsafe="sc.title" class="ng-binding">&nbsp;3D Objects <tt>(0/3)</tt></td>
+          </tr>
+          <!-- ngRepeat: ssc in sc.sections --><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/7/737.html" target="_blank" style="">737</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=678">
+                Gleaming the Cubes
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/737"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=737">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/8/815.html" target="_blank" style="">815</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=756">
+                Flooded!
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/815"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=815">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/102/10297.html" target="_blank" style="">10297</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1238">
+                Beavergnaw
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10297"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10297">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div><div ng-repeat="s in sections" style="float:right" class="ng-scope">
+      <table width="475" class="cpbook-table" border="1" style="margin-bottom:15px;" cellspacing="0">
+        <thead>
+          <tr>
+            <th colspan="4" style="height:20px; border:0; color:white;" class="tablebar ng-binding" ng-bind-html-unsafe="s.section_title">Polygon <tt>(0/22 = 0%)</tt></th>
+          </tr>
+        </thead>
+        <!-- ngRepeat: sc in s.sections --><tbody class="alt_colors ng-scope" ng-repeat="sc in s.sections">
+          <tr>
+            <td colspan="4" style="font-weight:bold; font-size:11px" ng-bind-html-unsafe="sc.title" class="ng-binding">&nbsp;Standard <tt>(0/22)</tt></td>
+          </tr>
+          <!-- ngRepeat: ssc in sc.sections --><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/109.html" target="_blank" style="">109</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=45">
+                SCUD Busters
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/109"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=109">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/1/137.html" target="_blank" style="">137</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=73">
+                Polygons
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/137"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=137">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/2/218.html" target="_blank" style="">218</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=154">
+                Moth Eradication
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/218"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=218">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/3/361.html" target="_blank" style="">361</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=297">
+                Cops and Robbers
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/361"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=361">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/4/478.html" target="_blank" style="">478</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=419">
+                Points in Figures: Rectangles, Circles, Triangles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/478"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=478">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 2</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/5/596.html" target="_blank" style="">596</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=537">
+                The Incredible Hull
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/596"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=596">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 6</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/6/634.html" target="_blank" style="">634</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=575">
+                Polygon
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/634"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=634">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/6/681.html" target="_blank" style="">681</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=622">
+                Convex Hull Finding
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/681"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=681">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/8/858.html" target="_blank" style="">858</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=799">
+                Berry Picking
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/858"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=858">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/11/1111.html" target="_blank" style="">1111</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=3552">
+                Trash Removal
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/1111"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=1111">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/12/1206.html" target="_blank" style="">1206</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=3647">
+                Boundary Points
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/1206"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=1206">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 6</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/100/10002.html" target="_blank" style="">10002</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=943">
+                Center of Masses
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10002"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10002">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/100/10060.html" target="_blank" style="">10060</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1001">
+                A hole to catch a man
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10060"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10060">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/100/10065.html" target="_blank" style="">10065</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1006">
+                Useless Tile Packers
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10065"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10065">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/101/10112.html" target="_blank" style="">10112</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1053">
+                Myacm Triangles
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10112"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10112">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 3</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/104/10406.html" target="_blank" style="">10406</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1347">
+                Cutting tabletops
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10406"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10406">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/106/10652.html" target="_blank" style="">10652</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=1593">
+                Board Wrapping
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/10652"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=10652">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/110/11096.html" target="_blank" style="">11096</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2037">
+                Nails
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11096"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11096">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none  prob_y" href="http://uva.onlinejudge.org/external/112/11265.html" target="_blank" style="">11265</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2232">
+                The Sultan's Problem
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="true">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11265"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11265">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/114/11447.html" target="_blank" style="">11447</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2442">
+                Reservoir logs
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11447"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11447">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/114/11473.html" target="_blank" style="">11473</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2468">
+                Campus Roads
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11473"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11473">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 5</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr><tr ng-repeat="ssc in sc.sections" class="ng-scope">
+            <td nowrap="" width="*" bgcolor="">&nbsp;
+              <a class="prob sub_none " href="http://uva.onlinejudge.org/external/116/11626.html" target="_blank" style="">11626</a> - 
+              <a class="ellipsis ng-binding" style="margin-left:5px; width:145px; color:black" target="_blank" href="http://uva.onlinejudge.org/index.php?option=com_onlinejudge&amp;Itemid=8&amp;category=24&amp;page=show_problem&amp;problem=2673">
+                Convex Hull
+              </a>
+            </td>
+            <td style="width:80px" align="right">
+              <span ng-show="false" style="display: none;">★</span>
+              <span ng-bind-html-unsafe="ssc.p.num | algorithmist:'|'" class="ng-binding"><a class="nou" target="_blank" href="http://www.udebug.com/UVa/11626"><img src="http://uhunt.felix-halim.net/images/udebug3.png"></a> |</span>
+              <a class="nou" target="_blank" href="http://uva.onlinejudge.org/board/search.php?keywords=11626">discuss</a>
+            </td>
+            <td style="width:40px" align="center" class="ng-binding">Lev 4</td>
+            <td width="135" ng-bind-html-unsafe="ssc.status" class="ng-binding">&nbsp;<b>--- ? ---</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

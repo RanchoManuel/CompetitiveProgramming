@@ -1,0 +1,186 @@
+Capitulo_01
+Getting Started: The Easy Problems (29/44 = 65%)
+Super Easy (15/15)
+272 ::: TEX Quotes
+1124 ::: Celebrity jeopardy
+10550 ::: Combination Lock
+11044 ::: Searching for Nessy
+11172 ::: Relational Operator ★
+11364 ::: Parking
+11498 ::: Division of Nlogonia ★
+11547 ::: Automatic Answer
+11727 ::: Cost Cutting ★
+12250 ::: Language Detection
+12279 ::: Emoogle Balance
+12289 ::: One-Two-Three
+12372 ::: Packing for Holiday
+12403 ::: Save Setu
+12577 ::: Hajj-e-Akbar
+Easy (9/15)
+621 ::: Secret Research
+10114 ::: Loansome Car Buyer ★
+10300 ::: Ecological Premium
+10963 ::: The Swallowing Ground
+11332 ::: Summing Digits
+11559 ::: Event Planning ★
+11679 ::: Sub-prime
+11764 ::: Jumping Mario
+11799 ::: Horror Dash ★
+11942 ::: Lumberjack Sequencing
+12015 ::: Google is Feeling Lucky
+12157 ::: Tariff Plan
+12468 ::: Zapping
+12503 ::: Robot Instructions
+12554 ::: A Special "Happy Birthday" Song!!!
+Medium (5/14)
+119 ::: Greedy Gift Givers
+573 ::: The Snail ★
+661 ::: Blowing Fuses
+10141 ::: Request for Proposal ★
+10324 ::: Zeros and Ones
+10424 ::: Love Calculator
+10919 ::: Prerequisites?
+11507 ::: Bender B. Rodríguez Problem ★
+11586 ::: Train Tracks
+11661 ::: Burger Time?
+11683 ::: Laser Sculpture
+11687 ::: Digits
+11956 ::: Brainfuck
+12478 ::: Hardest Problem Ever (Easy)
+Ad Hoc Problems - Part 1 (17/84 = 20%)
+Game (Card) (0/9)
+162 ::: Beggar My Neighbour
+462 ::: Bridge Hand Evaluator ★
+555 ::: Bridge Hands
+10205 ::: Stack 'em Up
+10315 ::: Poker Hands
+10646 ::: What is the Card? ★
+11225 ::: Tarot scores.
+11678 ::: Cards' Exchange
+12247 ::: Jollo ★
+Game (Chess) (0/7)
+255 ::: Correct Move
+278 ::: Chess ★
+696 ::: How Many Knights ★
+10196 ::: Check The Check
+10284 ::: Chessboard in FEN ★
+10849 ::: Move the bishop
+11494 ::: Queen
+Game (Others), Easier (4/9)
+340 ::: Master-Mind Hints
+489 ::: Hangman Judge ★
+947 ::: Master Mind Helper
+10189 ::: Minesweeper ★
+10279 ::: Mine Sweeper
+10409 ::: Die Game
+10530 ::: Guessing Game
+11459 ::: Snakes and Ladders ★
+12239 ::: Bingo!
+Game (Others), Harder (0/13)
+114 ::: Simulation Wizardry
+141 ::: The Spot Game
+220 ::: Othello
+227 ::: Puzzle
+232 ::: Crossword Answers
+339 ::: SameGame Simulation
+379 ::: Hi-Q
+584 ::: Bowling ★
+647 ::: Chutes and Ladders
+10363 ::: Tic Tac Toe
+10443 ::: Rock ★
+10813 ::: Traditional BINGO ★
+10903 ::: Rock-Paper-Scissors Tournament
+Palindrome (6/6)
+353 ::: Pesky Palindromes
+401 ::: Palindromes ★
+10018 ::: Reverse and Add
+10945 ::: Mother bear ★
+11221 ::: Magic square palindromes. ★
+11309 ::: Counting Chaos
+Anagram (3/7)
+148 ::: Anagram checker
+156 ::: Ananagrams ★
+195 ::: Anagram ★
+454 ::: Anagrams ★
+630 ::: Anagrams (II)
+642 ::: Word Amalgamation
+10098 ::: Generating Fast
+Interesting Real Life Problems, Easier (4/15)
+161 ::: Traffic Lights ★
+187 ::: Transaction Processing
+362 ::: 18,000 Seconds Remaining
+637 ::: Booklet Printing ★
+857 ::: Quantiser
+10082 ::: WERTYU
+10191 ::: Longest Nap
+10528 ::: Major Scales
+10554 ::: Calories from Fat
+10812 ::: Beat the Spread! ★
+11530 ::: SMS Typing
+11945 ::: Financial Management
+11984 ::: A Change in Thermal Unit
+12195 ::: Jingle Composing
+12555 ::: Baby Me
+Interesting Real Life Problems, Harder (0/18)
+139 ::: Telephone Tangles
+145 ::: Gondwanaland Telecom
+333 ::: Recognizing Good ISBNs
+346 ::: Getting Chorded
+403 ::: Postscript ★
+447 ::: Population Explosion
+448 ::: OOPS!
+449 ::: Majoring in Scales
+457 ::: Linear Cellular Automata
+538 ::: Balancing Bank Accounts
+608 ::: Counterfeit Dollar ★
+706 ::: LCD Display
+1061 ::: Consanguine Calculations ★
+10415 ::: Eb Alto Saxophone Player
+10659 ::: Fitting Text into Slides
+11223 ::: O: dah dah dah!
+11743 ::: Credit Check
+12342 ::: Tax Calculator
+Ad Hoc Problems - Part 2 (4/41 = 9%)
+Time (4/19)
+170 ::: Clock Patience
+300 ::: Maya Calendar
+579 ::: Clock Hands ★
+893 ::: Y3K Problem ★
+10070 ::: Leap Year or Not Leap Year and ...
+10339 ::: Watching Watches
+10371 ::: Time Zones
+10683 ::: The decadary watch
+11219 ::: How old are you?
+11356 ::: Dates
+11650 ::: Mirror Clock
+11677 ::: Alarm Clock
+11947 ::: Cancer or Scorpio ★
+11958 ::: Coming Home
+12019 ::: Doom's Day Algorithm
+12136 ::: Schedule of a Married Man
+12148 ::: Electricity
+12439 ::: February 29
+12531 ::: Hours and Minutes
+'Time Waster' Problems (0/22)
+144 ::: Student Grants
+214 ::: Code Generation
+335 ::: Processing MX Records
+337 ::: Interpreting Control Sequences
+349 ::: Transferable Voting (II)
+381 ::: Making the Grade
+405 ::: Message Routing
+556 ::: Amazing ★
+603 ::: Parking Lot
+830 ::: Shark
+945 ::: Loading a Cargo Ship
+10033 ::: Interpreter
+10134 ::: AutoFish
+10142 ::: Australian Voting
+10188 ::: Automated Judge Script
+10267 ::: Graphical Editor
+10961 ::: Chasing After Don Giovanni
+11140 ::: Little Ali's Little Brother!
+11717 ::: Energy Saving Microcontroller
+12060 ::: All Integer Average ★
+12085 ::: Mobile Casanova ★
+12608 ::: Garbage Collection
