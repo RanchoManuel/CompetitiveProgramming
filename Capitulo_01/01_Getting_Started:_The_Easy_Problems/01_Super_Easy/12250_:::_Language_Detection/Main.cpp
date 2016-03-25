@@ -9,12 +9,10 @@ int main()
 	if(test) freopen("in.txt","r",stdin);
 	
 	char s[20]; //14 + seguridad
-	fgets(s, sizeof(s), stdin);
+	scanf("%s", s);
 
-	for(int c=1; strcmp(s,"#")!=0; fgets(s, sizeof(s), stdin))
+	for(int c=1; strcmp(s,"#")!=0; scanf("%s", s))
 	{
-		s[strlen(s)-1]='\0'; //fgets captures the enter
-		
 		printf("Case %d: ", c++);
 		if(strcmp(s,"HELLO")==0) printf("ENGLISH\n");
 		else if(strcmp(s,"HOLA")==0) printf("SPANISH\n");

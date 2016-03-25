@@ -14,7 +14,14 @@ public class Main
 		if(test) br=new BufferedReader(new FileReader(new File("in.txt")));
 		else br=new BufferedReader(new InputStreamReader(System.in));
 		//-----------------------------------------------------------
-		
+		String linea;
+
+		for(int c=1; !(linea=br.readLine()).equals("*"); c++)
+		{
+			System.out.print("Case "+c+": ");
+			if(linea.equals("Hajj")) System.out.println("Hajj-e-Akbar");
+			else System.out.println("Hajj-e-Asghar");
+		}		
 		//-----------------------------------------------------------
 		br.close();
 	}
