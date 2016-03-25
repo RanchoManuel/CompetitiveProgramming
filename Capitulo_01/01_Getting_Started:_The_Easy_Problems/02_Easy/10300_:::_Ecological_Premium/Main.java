@@ -14,7 +14,21 @@ public class Main
 		if(test) br=new BufferedReader(new FileReader(new File("in.txt")));
 		else br=new BufferedReader(new InputStreamReader(System.in));
 		//-----------------------------------------------------------
-		
+		int casos=Integer.parseInt(br.readLine());
+
+		while(casos--!=0)
+		{
+			int granjas=Integer.parseInt(br.readLine()), rta=0;
+			while(granjas--!=0)
+			{
+				String[] aux=br.readLine().split(" ");
+				int size=Integer.parseInt(aux[0]);
+				int environment=Integer.parseInt(aux[2]);
+
+				rta+=(size*environment);
+			}
+			System.out.println(rta);
+		}		
 		//-----------------------------------------------------------
 		br.close();
 	}
