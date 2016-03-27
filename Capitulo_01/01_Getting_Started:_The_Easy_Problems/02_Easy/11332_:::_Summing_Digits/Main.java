@@ -14,7 +14,17 @@ public class Main
 		if(test) br=new BufferedReader(new FileReader(new File("in.txt")));
 		else br=new BufferedReader(new InputStreamReader(System.in));
 		//-----------------------------------------------------------
-		
+		for(String linea; !(linea=br.readLine()).equals("0");)
+			{
+				char[] caract=linea.toCharArray();
+				while(caract.length>1)
+				{
+					int f=0;
+					for(int i=0; i<caract.length; i++) f+=(caract[i]-'0');
+					caract=(""+f).toCharArray();
+				}
+				System.out.println(caract[0]);
+			}
 		//-----------------------------------------------------------
 		br.close();
 	}
