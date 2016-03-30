@@ -2,12 +2,8 @@ using namespace std;
 #include <cstdio>
 #include <cstring>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	char one[]={'o','n','e'};
 	char linea[6];
 	int casos, tam, num1;

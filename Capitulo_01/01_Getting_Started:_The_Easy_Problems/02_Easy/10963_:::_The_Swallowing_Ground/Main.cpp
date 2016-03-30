@@ -1,12 +1,8 @@
 using namespace std;
 #include <cstdio>
 
-bool test=true;
-
 int main()
-{
-	if(test) freopen("in.txt","r",stdin);
-	
+{	
 	int casos, W, y1, y2, diff=0;
 	bool rta, primero;
 	

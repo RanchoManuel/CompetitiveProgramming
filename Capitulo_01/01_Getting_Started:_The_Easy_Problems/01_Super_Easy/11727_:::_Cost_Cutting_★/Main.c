@@ -1,8 +1,6 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-int test=1;
-
 int compare(const void * a, const void * b)
 {
 	return(*(int*)a - *(int*)b);
@@ -10,8 +8,6 @@ int compare(const void * a, const void * b)
 
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-	
 	int datos[3];
 	int casos, c;
 

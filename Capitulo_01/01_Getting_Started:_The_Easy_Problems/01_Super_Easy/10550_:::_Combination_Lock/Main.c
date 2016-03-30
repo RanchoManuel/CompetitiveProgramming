@@ -1,11 +1,7 @@
 #include "stdio.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int p0, p1, p2, p3, ang1, ang2, ang3, ans, i;
 
 	while(scanf("%d %d %d %d",&p0,&p1,&p2,&p3),(p0||p1||p2||p3))

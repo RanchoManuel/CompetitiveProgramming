@@ -2,12 +2,8 @@ using namespace std;
 #include <cstdio>
 #include <cstring>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	char s [2000];
 	int casos; scanf("%d", &casos);
 	while(casos--)

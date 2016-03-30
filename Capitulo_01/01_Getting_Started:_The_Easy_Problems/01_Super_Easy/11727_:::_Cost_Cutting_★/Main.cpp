@@ -2,12 +2,8 @@ using namespace std;
 #include <cstdio>
 #include <algorithm>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int datos[3];
 	int casos;
 

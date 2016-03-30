@@ -3,12 +3,8 @@
 #define TRUE 1;
 #define FALSE 0;
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int casos, ant, actual, i;
 	int sortUp, sortDown;
 	puts("Lumberjacks:");

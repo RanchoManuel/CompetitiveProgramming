@@ -1,11 +1,7 @@
 #include "stdio.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int casos, granjas, rta, size, environment, noUso;
 	scanf("%d",&casos);
 	while(casos--)

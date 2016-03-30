@@ -1,12 +1,8 @@
 using namespace std;
 #include <cstdio>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-	
 	int x, y, xp, yp, casos;
 
 	scanf("%d",&casos);

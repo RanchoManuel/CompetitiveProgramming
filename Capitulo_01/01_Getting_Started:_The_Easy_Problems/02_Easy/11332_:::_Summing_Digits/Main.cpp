@@ -3,8 +3,6 @@ using namespace std;
 #include <string>
 #include <sstream>
 
-bool test=true;
-
 string parseInt(int number)
 {
   stringstream ss;
@@ -14,8 +12,6 @@ string parseInt(int number)
 
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	string s;
 	int num;
 	scanf("%d", &num);

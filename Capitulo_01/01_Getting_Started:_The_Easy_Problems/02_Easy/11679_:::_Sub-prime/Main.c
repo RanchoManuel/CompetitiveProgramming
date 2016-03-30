@@ -3,12 +3,8 @@
 #define TRUE 1
 #define FALSE 0
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int B, N, R[20+2], D, C, V, i;
 	int rta;
 	while(scanf("%d %d", &B, &N), (B||N))

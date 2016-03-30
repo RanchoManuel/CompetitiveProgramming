@@ -1,12 +1,8 @@
 #include "stdio.h"
 #include "string.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	char s[1000];
 	int num, f, i;
 	scanf("%d", &num);

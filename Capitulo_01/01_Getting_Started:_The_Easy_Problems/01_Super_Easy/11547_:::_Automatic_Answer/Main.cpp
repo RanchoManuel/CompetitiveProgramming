@@ -2,12 +2,8 @@ using namespace std;
 #include <cstdio>
 #include <sstream>      // std::stringstream
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int casos, num;
 	stringstream s;
 	string temp;

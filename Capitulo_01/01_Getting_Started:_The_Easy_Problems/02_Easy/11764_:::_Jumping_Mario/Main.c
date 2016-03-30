@@ -1,11 +1,7 @@
 #include "stdio.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int casos, largo, ant, actual, subidas, bajadas, c;
 	scanf("%d", &casos);
 	for(c=1; c<=casos; c++)

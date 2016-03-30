@@ -1,11 +1,7 @@
 #include "stdio.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int N, B, H, W, minGasto, p, gasto, beds, i, j;
 	while(scanf("%d %d %d %d", &N, &B, &H, &W)==4)
 	{

@@ -3,12 +3,8 @@
 #define TRUE 1
 #define FALSE 0
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int casos, W, y1, y2, diff=0;
 	int rta, primero;
 	

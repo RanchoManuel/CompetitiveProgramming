@@ -2,12 +2,8 @@ using namespace std;
 #include <cstdio>
 #include <iostream>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int casos;cin >> casos;
 	for(int c=1; c<=casos; c++)
 	{

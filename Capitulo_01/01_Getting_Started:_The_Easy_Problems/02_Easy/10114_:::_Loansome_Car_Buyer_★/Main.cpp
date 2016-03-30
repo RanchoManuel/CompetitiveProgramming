@@ -1,12 +1,8 @@
 using namespace std;
 #include <cstdio>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-	
 	int meses, numIntereses, mesInteres, anteriorMes, t=0;
 	double down, deuda, pago, precioCarro, interes, anteriorInteres;
 	double depreciacionPeriodo[101+10];//Los de seguridad por OutOfBounds

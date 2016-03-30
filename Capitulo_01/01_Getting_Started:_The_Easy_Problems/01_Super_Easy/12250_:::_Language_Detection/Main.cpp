@@ -2,12 +2,8 @@ using namespace std;
 #include <cstdio>
 #include <cstring>
 
-bool test=true;
-
 int main()
-{
-	if(test) freopen("in.txt","r",stdin);
-	
+{	
 	char s[20]; //14 + seguridad
 	scanf("%s", s);
 

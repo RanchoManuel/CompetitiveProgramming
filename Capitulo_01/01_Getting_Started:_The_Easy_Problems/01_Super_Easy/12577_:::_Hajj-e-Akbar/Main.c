@@ -1,12 +1,8 @@
 #include "stdio.h"
 #include "string.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-	
 	char comando[6];
 	scanf("%s", comando);
 	int c;

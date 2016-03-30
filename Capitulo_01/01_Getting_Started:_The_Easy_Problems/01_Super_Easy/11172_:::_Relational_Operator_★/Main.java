@@ -6,13 +6,9 @@ import java.io.InputStreamReader;
 
 public class Main
 {
-	private static BufferedReader br;
-	private static boolean test=true;
-
 	public static void main(String[] args) throws IOException
 	{
-		if(test) br=new BufferedReader(new FileReader(new File("in.txt")));
-		else br=new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		//-----------------------------------------------------------
 		int casos=Integer.parseInt(br.readLine()), a, b;
 		for(String aux[]; casos--!=0;)

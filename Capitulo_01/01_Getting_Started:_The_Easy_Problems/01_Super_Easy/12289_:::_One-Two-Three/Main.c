@@ -1,12 +1,8 @@
 #include "stdio.h"
 #include "string.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-	
 	char one[]={'o','n','e'};
 	char linea[6];
 	int casos, tam, num1, j;

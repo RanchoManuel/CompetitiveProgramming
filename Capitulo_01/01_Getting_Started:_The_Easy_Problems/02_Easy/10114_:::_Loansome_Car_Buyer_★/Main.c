@@ -1,11 +1,7 @@
 #include "stdio.h"
 
-int test=1;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int meses, numIntereses, mesInteres, anteriorMes, t=0, i;
 	double down, deuda, pago, precioCarro, interes, anteriorInteres;
 	double depreciacionPeriodo[101+10];//Los de seguridad por OutOfBounds

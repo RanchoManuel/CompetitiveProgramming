@@ -2,12 +2,8 @@ using namespace std;
 #include <cstdio>
 #include <cstring>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	char comando[6];
 	scanf("%s", comando);
 	for(int c=1; strcmp(comando,"*")!=0; c++)

@@ -2,12 +2,8 @@ using namespace std;
 #include <iostream>
 #include <cstdio>
 
-bool test=true;
-
 int main()
 {
-	if(test) freopen("in.txt","r",stdin);
-
 	int N,B,H,W;
 	while(scanf("%d %d %d %d", &N, &B, &H, &W)==4)
 	{
