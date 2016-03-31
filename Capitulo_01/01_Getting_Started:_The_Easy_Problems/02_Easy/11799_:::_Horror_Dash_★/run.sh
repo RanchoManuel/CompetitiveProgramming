@@ -4,7 +4,7 @@ java Main < in.txt
 echo "-------\nRta: $?\n-------"
 
 g++ -o MainCpp Main.cpp
-./MainC < in.txt
+./MainCpp < in.txt
 echo "-------\nRta: $?\n-------"
 
 gcc -o MainC Main.c

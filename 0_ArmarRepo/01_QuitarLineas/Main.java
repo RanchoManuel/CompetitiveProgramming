@@ -53,8 +53,8 @@ public class Main
 					else if(name.endsWith(".sh"))
 					{
 						if(line.contains("java Main"))pw.println("java Main < in.txt");
-						else if(line.contains("./MainC"))pw.println("./MainC < in.txt");
 						else if(line.contains("./MainCpp"))pw.println("./MainCpp < in.txt");
+						else if(line.contains("./MainC"))pw.println("./MainC < in.txt");
 						else pw.println(line);
 					}
 				}
