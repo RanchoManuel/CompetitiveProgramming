@@ -1,6 +1,5 @@
 clear
 javac Main.java
-echo "Compilo"
 java Main < in.txt
 echo "-------\nRta: $?\n-------"
 

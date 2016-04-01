@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int casos, n, inst[100], s, rta;
-	char line[10];
+	char line[10], garbage[10];
 	scanf("%d", &casos);
 	
 	while(casos--)
@@ -16,22 +16,19 @@ int main()
 		{
 			scanf("%s", line);
 			
-			puts(line);
-			//printf("%d", s);
-			/*
 			if(strcmp("LEFT", line)==0) {inst[i]=-1; rta--;}
 			else if(strcmp("RIGHT", line)==0) {inst[i]=1; rta++;}
 			else
 			{
+				scanf("%s %d", garbage, &s);
 				s--;
 				inst[i]=inst[s];
 				
 				rta+=inst[i];
 			}
-			*/
 		}
-		puts(".........");
-		//printf("%d\n", rta);
+		printf("%d\n", rta);
 	}
+	
 	return 0;
 }
