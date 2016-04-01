@@ -1,12 +1,13 @@
 clear
-#javac Main.java
+javac Main.java
+echo "Compilo"
 java Main < in.txt
-#echo "-------\nRta: $?\n-------"
+echo "-------\nRta: $?\n-------"
 
-#g++ -o MainCpp Main.cpp
+g++ -o MainCpp Main.cpp
 ./MainCpp < in.txt
-#echo "-------\nRta: $?\n-------"
+echo "-------\nRta: $?\n-------"
 
-#gcc -o MainC Main.c
+gcc -o MainC Main.c
 ./MainC < in.txt
-#echo "-------\nRta: $?\n-------"
+echo "-------\nRta: $?\n-------"
