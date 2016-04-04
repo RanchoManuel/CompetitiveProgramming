@@ -9,7 +9,7 @@ int main()
 	char anterior;
 	bool iguales;
 
-	while(scanf("%s", &linea)!=EOF)
+	while(scanf("%s", linea)!=EOF)
 	{
 		printf("Case %d:\n", c++);
 
