@@ -6,21 +6,21 @@ using namespace std;
 
 int main()
 {
-	map<string, int> map;
+	map<string, int> mymap;
 	int numGrupo, plata, aCuantos, seQueda, seEntrega, i, lol, acum;
 	bool primero=true;
 	string aQuien, nombres[10];
 	
 	while(scanf("%d", &numGrupo) != EOF)
 	{
-		map.clear();
+		mymap.clear();
 		if(!primero) puts("");
 		else primero=false;
 		
 		for(i=0; i<numGrupo; i++)
 		{
 			cin >> aQuien;
-			map[aQuien]=0;
+			mymap[aQuien]=0;
 			nombres[i]=aQuien;
 		}
 		
@@ -28,24 +28,24 @@ int main()
 		{
 			cin >> aQuien >> plata >> aCuantos;
 			
-			acum=map[aQuien];
+			acum=mymap[aQuien];
 			seEntrega=(aCuantos==0)?0:plata/aCuantos;
 			seQueda=plata-seEntrega*aCuantos;
 			acum+=seQueda;
 			acum-=plata;
-			map[aQuien]=acum;
+			mymap[aQuien]=acum;
 			
 			while(aCuantos--)
 			{
 				cin >> aQuien;
-				lol=map[aQuien];
+				lol=mymap[aQuien];
 				lol+=seEntrega;
-				map[aQuien]=lol;
+				mymap[aQuien]=lol;
 			} 
 		}
 		
 		for(i=0; i<numGrupo; i++)
-			cout << nombres[i] << " " << map[nombres[i]] << endl;
+			cout << nombres[i] << " " << mymap[nombres[i]] << endl;
 	}
 	
 	return 0;
