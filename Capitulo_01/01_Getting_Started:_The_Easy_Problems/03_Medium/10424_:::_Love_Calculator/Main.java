@@ -26,7 +26,6 @@ public class Main
 			for(char c : aux2) if(Character.isLetter(c)) sum2+=(Character.toLowerCase(c)-'a'+1);
 
 			cad1=sum1+""; cad2=sum2+"";
-			System.out.println("init: "+sum1+"      "+sum2);
 
 			while(cad1.length()!=1)
 			{
@@ -34,7 +33,6 @@ public class Main
 				aux1=cad1.toCharArray();
 				for(char c : aux1) sum1+=(c-'0');
 				cad1=sum1+"";
-				System.out.println("s1: "+sum1);
 			}
 
 			while(cad2.length()!=1)
@@ -43,10 +41,8 @@ public class Main
 				aux2=cad2.toCharArray();
 				for(char c : aux2) sum2+=(c-'0');
 				cad2=sum2+"";
-				System.out.println("s2: "+sum2);
 			}
 
-			System.out.println("fin: "+sum1+"      "+sum2);
 			rta=Math.min(sum1, sum2)*100.0/Math.max(sum1, sum2);
 			System.out.println(df.format(rta).replace(',','.')+" %");
 		}		

@@ -58,7 +58,7 @@ int main()
 		}
 
 		rta=(double)min(sum1, sum2)*100.0/(double)max(sum1, sum2);
-		printf("%.2f %\n", rta);
+		printf("%.2f %%\n", rta);
 	}
 
 	return 0;
