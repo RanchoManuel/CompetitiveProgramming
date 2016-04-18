@@ -7,6 +7,6 @@ echo "-------\nRta: $?\n-------"
 #./MainCpp < in.txt
 #echo "-------\nRta: $?\n-------"
 
-#gcc -o MainC Main.c
-#./MainC < in.txt
-#echo "-------\nRta: $?\n-------"
+gcc -o MainC Main.c
+./MainC < in.txt
+echo "-------\nRta: $?\n-------"
