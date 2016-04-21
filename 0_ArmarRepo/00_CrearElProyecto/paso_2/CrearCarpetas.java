@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.io.PrintWriter;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,6 +11,8 @@ public class CrearCarpetas
 	public static void main(String[] args) throws IOException
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		PrintWriter prNums=new PrintWriter(new File("numeros.txt"));
+		PrintWriter prRuta=new PrintWriter(new File("rutas.txt"));
 
 		String folderH1="", folderH2="", problem="", capitulo=br.readLine();
 		int numH1=1, numH2=1;
@@ -37,6 +40,9 @@ public class CrearCarpetas
 				procesada=line.trim().replaceAll(" ", "_");
 				problem=procesada;
 				String ruta="./"+capitulo+"/"+folderH1+"/"+folderH2+"/"+problem;
+				
+				prNums.println(line.split("\\s+:::\\s+")[0]);
+				prRuta.println(ruta);
 
 				boolean success = (new File(ruta)).mkdirs();
 				if(!success) System.out.println("\t\t"+procesada+" ERROR");
@@ -56,6 +62,6 @@ public class CrearCarpetas
 			}
 			else System.out.println("XXXXXXXXXXXXXXXXXXXX ERROR XXXXXXXXXXXXXXXXXXXX");
 		}
-		br.close();
+		br.close(); prNums.close(); prRuta.close();
 	}
 }

@@ -13,4 +13,5 @@ do
 	echo "Archivo txt del capitulo $i creado"
 done
 
+rm *.class
 rm out1.txt
