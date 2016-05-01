@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
 import java.util.Arrays;
+import java.util.Map;
+import java.util.HashMap;
 
 public class Main
 {
@@ -13,7 +15,8 @@ public class Main
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		//-----------------------------------------------------------
 		DecimalFormat df=new DecimalFormat("0.00$");
-		int casos=Integer.parseInt(br.readLine()), cantChar, cantLine, map[]=new int[256];
+		int casos=Integer.parseInt(br.readLine()), cantChar, cantLine;
+		Map<Character, Long> map = new HashMap<Character, Long>();
 		double rta;
 		String line, aux[];
 		char[] caract;
@@ -21,21 +24,23 @@ public class Main
 		while(casos--!=0)
 		{
 			rta=0;
-			Arrays.fill(map, 0);
+			map.clear();
 			
 			cantChar=Integer.parseInt(br.readLine().trim());
 			while(cantChar--!=0)
 			{
 				line=br.readLine();
 				aux=line.split("\\s+");
-				map[line.charAt(0)]=Integer.parseInt(aux[1]);				
+				map.put(line.charAt(0), Long.parseLong(aux[1]));				
 			}
 			
 			cantLine=Integer.parseInt(br.readLine().trim());
 			while(cantLine--!=0)
 			{
 				caract=br.readLine().toCharArray();
-				for(char c: caract) rta+=map[c];
+				for(Character c: caract)
+					if(map.containsKey(c))
+						rta+=map.get(c);
 			}
 			
 			rta/=100.0;
