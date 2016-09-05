@@ -10,7 +10,7 @@ rm *.class
 
 echo "Juntando archivos"
 while read -r a && read -r b <&3; do
-	echo "$a\n$b" >> paraUsar.txt;
+	printf "$a\n$b\n" >> paraUsar.txt;
 done < allRutas.txt 3<allUrls.txt
 
 mv paraUsar.txt carpetas/
@@ -22,9 +22,9 @@ echo "Bajando pdfs"
 for line in $(cat paraUsar.txt);
 do
 	out=$(( $n % 2 ))
-	if [ $out -eq 0 ]; then
+	if [ $out -eq 0 ]; then		
 		cd $line
-	else	
+	else
 		wget $line -O "$PWD/Text.pdf" -nv
 		cd $ORIGEN
 	fi
