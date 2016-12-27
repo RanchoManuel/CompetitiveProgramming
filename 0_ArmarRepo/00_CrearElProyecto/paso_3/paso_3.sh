@@ -22,7 +22,7 @@ echo "Bajando pdfs"
 for line in $(cat paraUsar.txt);
 do
 	out=$(( $n % 2 ))
-	if [ $out -eq 0 ]; then		
+	if [ $out -eq 0 ]; then
 		cd $line
 	else
 		wget $line -O "$PWD/Text.pdf" -nv
