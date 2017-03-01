@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo "---- Paso 1 ----"
 
 echo "Compilando"

@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 echo "---- Paso 0 ----"
 
 OLD1=".png\">"
