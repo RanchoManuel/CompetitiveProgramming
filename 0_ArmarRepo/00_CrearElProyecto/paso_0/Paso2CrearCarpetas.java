@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class CrearCarpetas
+public class Paso2CrearCarpetas
 {
 	public static void main(String[] args) throws IOException
 	{
@@ -39,7 +39,7 @@ public class CrearCarpetas
 			{
 				procesada=line.trim().replaceAll(" ", "_");
 				problem=procesada;
-				String ruta="./"+capitulo+"/"+folderH1+"/"+folderH2+"/"+problem;
+				String ruta=capitulo+"/"+folderH1+"/"+folderH2+"/"+problem;
 				
 				prNums.println(line.split("\\s+:::\\s+")[0]);
 				prRuta.println(ruta);

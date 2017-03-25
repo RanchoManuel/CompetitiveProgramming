@@ -8,7 +8,7 @@ import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-public class XMLDomParser
+public class Paso1XMLDomParser
 {
 	private static int contador=0;
 	

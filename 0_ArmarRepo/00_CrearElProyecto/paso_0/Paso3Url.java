@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Url
+public class Paso3Url
 {
 	public static void main(String[] args) throws IOException
 	{
