@@ -14,8 +14,11 @@ RESULTADO="../resultado"
 
 TEMP="temp"
 
-rm -rf $PASO1 $PASO2 $PASO3 $PASO4 $RESULTADO $TEMP > /dev/null
-mkdir $PASO1 $PASO2 $PASO3 $PASO4 $RESULTADO $CARPETAS $TEMP
+function resetEnviroment ()
+{
+	rm -rf $PASO1 $PASO2 $PASO3 $PASO4 $RESULTADO $TEMP > /dev/null
+	mkdir $PASO1 $PASO2 $PASO3 $PASO4 $RESULTADO $CARPETAS $TEMP
+}
 
 function fn_paso_0 ()
 {
@@ -85,7 +88,7 @@ function fn_paso_3 ()
 	while read -r carpeta_destino && read -r url_pdf <&3; do
 		wget $url_pdf -O "$CARPETAS/$carpeta_destino/Text.pdf" -nv
 	done < $TEMP/allRutas.txt 3<$TEMP/allUrls.txt
-	mv $CARPETAS* $RESULTADO
+	mv $CARPETAS/* $RESULTADO
 }
 
 function fn_paso_4 ()
@@ -93,15 +96,14 @@ function fn_paso_4 ()
 	echo "---- Paso 4 ----"
 
 	echo "Compilando"
+	rm *.class
 	javac Paso4CrearSQL.java
-
-	for i in $(seq 1 9); do
-		java Paso4CrearSQL "$i" < "$PASO4/resultadoCap_0$i.txt"
-	done
+	java Paso4CrearSQL < "$TEMP/allRutas.txt" > Insert.sql
 }
 
-fn_paso_0
-fn_paso_1
-fn_paso_2
-fn_paso_3
+#resetEnviroment
+#fn_paso_0
+#fn_paso_1
+#fn_paso_2
+#fn_paso_3
 fn_paso_4

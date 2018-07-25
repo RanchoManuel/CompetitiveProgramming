@@ -8,10 +8,11 @@ public class Main
 {
 	public static void main(String[] args) throws IOException
 	{
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		//-----------------------------------------------------------
-		
-		//-----------------------------------------------------------
-		br.close();
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+			for (String line, aux[]; (line=br.readLine())!=null;) {
+				// aux = line.split("\\s+");
+				System.out.println(line);
+			}
+		}
 	}
 }
