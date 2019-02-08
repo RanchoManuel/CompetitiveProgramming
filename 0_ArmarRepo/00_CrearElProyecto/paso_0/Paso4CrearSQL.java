@@ -48,16 +48,16 @@ public class Paso4CrearSQL {
 	private static void printSQL(Map<String, Capitulo> capitulos) {
 		int indexCapitulo = 1, indexSubCapitulo = 1, indexTema = 1, indexEjercicio = 1;
 		for (Capitulo capitulo : capitulos.values()) {
-			System.out.printf("INSERT INTO CHAPTER (ID, TEXT) VALUES (%d, \"%s\");\n", indexCapitulo, capitulo.text);
+			System.out.printf("INSERT INTO chapter (id, text) VALUES (%d, \"%s\");\n", indexCapitulo, capitulo.text);
 			for (Subcapitulo subcapitulo : capitulo.subcapitulos.values()) {
-				System.out.printf("INSERT INTO SUBCHAPTER (ID, CHAPTER, TEXT) VALUES (%d, %d, \"%s\");\n",
+				System.out.printf("INSERT INTO subchapter (id, chapter, text) VALUES (%d, %d, \"%s\");\n",
 						indexSubCapitulo, indexCapitulo, subcapitulo.text);
 				for (Tema tema : subcapitulo.temas.values()) {
-					System.out.printf("INSERT INTO TOPIC (ID, SUBCHAPTER, TEXT) VALUES (%d, %d, \"%s\");\n", indexTema,
+					System.out.printf("INSERT INTO topic (id, subchapter, text) VALUES (%d, %d, \"%s\");\n", indexTema,
 							indexSubCapitulo, tema.text);
 					for (String ejercicio : tema.ejercicios) {
 						System.out.printf(
-								"INSERT INTO EXERCISE (ID, CHAPTER, SUBCHAPTER, TOPIC, TEXT) VALUES (%d, %d, %d, %d, \"%s\");\n",
+								"INSERT INTO exercise (id, chapter, subchapter, topic, text) VALUES (%d, %d, %d, %d, \"%s\");\n",
 								indexEjercicio++, indexCapitulo, indexSubCapitulo, indexTema, ejercicio);
 					}
 					indexTema++;
