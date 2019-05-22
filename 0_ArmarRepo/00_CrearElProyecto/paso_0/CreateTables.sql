@@ -19,11 +19,7 @@ CREATE TABLE topic (
 
 CREATE TABLE exercise (
     id INTEGER PRIMARY KEY,
-    chapter INTEGER,
-    subchapter INTEGER,
     topic INTEGER,
     text VARCHAR(300) NOT NULL,
-    FOREIGN KEY (chapter) REFERENCES chapter (id),
-    FOREIGN KEY (subchapter) REFERENCES subchapter (id),
     FOREIGN KEY (topic) REFERENCES topic (id)
 );
